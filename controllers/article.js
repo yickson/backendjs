@@ -241,7 +241,7 @@ var controller = {
         }
 
         // Conseguir nombre y la extensión del archivo
-        var file_path = req.files.file0.path;
+        var file_path = req.files.files.path;
         var file_split = file_path.split('\\');
 
         // * ADVERTENCIA * EN LINUX O MAC
